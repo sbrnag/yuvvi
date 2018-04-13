@@ -1,5 +1,5 @@
 import Layout from '../components/MyLayout.js'
-import Upload from '../components/Upload.js'
+import Post from '../components/Post.js'
 import Link from 'next/link'
 
 
@@ -17,7 +17,7 @@ export default () => (
         <Layout>
             <h3>Share what you have brought</h3>
             <div className="container">
-                <Upload />
+                <Post />
             </div>
         </Layout>
     </div>
